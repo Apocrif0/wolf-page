@@ -1,0 +1,62 @@
+.text-wolf{
+    color: #3e5f8a!important
+}
+.btn-wolf{
+    background-color:#3e5f8a !important ;
+    color: white;
+    border: 1px solid #1c3643;
+}
+.btn-wolf:hover{
+    background-color: #1c3643;
+    
+}
+.header img{
+    width: 30px;
+}
+.main .carousel-inner img{
+    max-height: 70vh;
+    object-fit: cover;
+    filter: grayscale(70%);
+
+}
+.carousel {
+   position: relative;
+}
+.carousel .overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color:rgba(0, 0, 0, 0.5);
+    color: white;
+    z-index: 1;
+}
+.carousel .overlay .container,
+.carousel .overlay .row{
+    height: 100%;
+}
+
+
+.project-time{
+    background: rgba(76,76,76,0);
+}
+
+.project-time .card {
+    
+    border-radius: 20%;
+    border: none;
+    
+}
+.project-time .card img{
+   
+    width: 300px;
+}
+
+
+.footer{
+    background: #343a40!important;
+}
+.footer a{
+    color: white;
+}
